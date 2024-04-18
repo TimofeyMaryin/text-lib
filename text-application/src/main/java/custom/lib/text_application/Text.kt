@@ -31,6 +31,27 @@ fun PrimaryText(
 }
 
 @Composable
+fun LargeText(
+    value: String,
+    color: Color,
+    modifier: Modifier = Modifier,
+    textAlign: TextAlign = TextAlign.Start,
+    fontWeight: FontWeight = FontWeight.Normal,
+    maxLines: Int = Int.MAX_VALUE,
+) {
+    Constructor(
+        value = value,
+        modifier = modifier,
+        textAlign = textAlign,
+        fontWeight = fontWeight,
+        maxLines = maxLines,
+        color = color,
+
+        style = MaterialTheme.typography.displayMedium,
+    )
+}
+
+@Composable
 fun SecondaryText(
     value: String,
     color: Color,

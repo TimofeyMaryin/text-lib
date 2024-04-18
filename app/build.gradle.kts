@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "custom.lib.textlib"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "custom.lib.textlib"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
